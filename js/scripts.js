@@ -5,6 +5,10 @@ let roboOut = function(toCount) {
     let countStr = toCount.toString();
     if (countStr.includes("1")) { 
       range.splice(i, 1, "Beep!");
+    } else if (countStr.includes("2")) { 
+      range.splice(i, 1, "Boop!");
+    } else if (countStr.includes("3")) { 
+      range.splice(i, 1, "Won't you be my neighbor?");
     }
   console.log(range)
 }
