@@ -26,9 +26,15 @@ If the user inputs a number the program will return an array from 0 to that numb
 * Input: 7
 * Output: [0, 1, 2, 3, 4, 5, 6 , 7]
 
-If the user inputs a number, program will count to that number and all digits in the count containing 1 will be replace by "boop".
+If the user inputs a number, the program will count to that number and all digits in the count containing 1 will be replace by "boop".
 * Input: 13
-* Output: 0, boop, 2, 3, 4, 5, 6, 7, 8, 9, boop0, boopboop, boop2, boop3
+* Output: 0, boop, 2, 3, 4, 5, 6, 7, 8, 9, boop, boop, boop, boop
+
+If the user inputs a number, the program will count to that number and all digits in the count containing 2 will be replace by "boop".
+* Input: 13
+* Output: 0, boop, 2, 3, 4, 5, 6, 7, 8, 9, boop, boop, boop, boop
+
+
 
 
 ## Setup/Installation Requirements
