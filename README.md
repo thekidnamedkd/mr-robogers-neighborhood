@@ -10,13 +10,17 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 
 ## Specs
 
-If the user inputs a numeric value, the program will return that value as an "boop" alert.
-Input: 3
-Output: alert "3"
+If the user inputs a numeric value, the program will display "boop" alert.
+* Input: 3
+* Output: alert "3"
 
-If the user puts in a non-numeric value, the program will return an alert asking for a number.
-Input: cat
-Output: prompt "Please enter a numeric value."
+If the user puts in a non-numeric value, the program will display alert asking for a number.
+* Input: cat
+* Output: alert "Please enter a numeric value."
+
+If the user inputs a number with more than digit, the program will return an alert separating the number.
+* Input: 23
+* Output: You entered 2 and 3.
 
 
 ## Setup/Installation Requirements

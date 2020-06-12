@@ -1,5 +1,5 @@
-const numArray = numInput.split("")
-      console.log(numArray)
+// function robogerOutput(output)
+//   let inputStr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 $(document).ready(function() {
   $("form#robogers").submit(function(event) {
@@ -10,11 +10,19 @@ $(document).ready(function() {
         alert("Please enter a numeric value.")
       }
 
-      else if (Number.isInteger(numInput)) {
+      else if (numInput === 1) {
+        alert("beep")
+      }
+
+      else if (numInput === 2) {
         alert("boop")
       }
 
-      else if (numArray[0] === 3)
-        alert("beep")
+      else if (numInput === 3) {
+        alert("NEIGHBOR")
+      }
+      else if (Number.isInteger(numInput)) {
+        alert("Thank you for the number.")
+      }
   });
 });
