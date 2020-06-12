@@ -8,6 +8,17 @@
 
 _{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
 
+## Specs
+
+If the user inputs a numeric value, the program will return that value as an "boop" alert.
+Input: 3
+Output: alert "3"
+
+If the user puts in a non-numeric value, the program will return an alert asking for a number.
+Input: cat
+Output: prompt "Please enter a numeric value."
+
+
 ## Setup/Installation Requirements
 
 * _This is a great place_
