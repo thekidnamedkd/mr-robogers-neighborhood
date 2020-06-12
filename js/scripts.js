@@ -1,5 +1,5 @@
 let roboOut = function(toCount) {
-  let range = []
+  let range = [] 
   for (i = 0; i <= toCount; i++)
     range.push(i)
     let countStr = toCount.toString();
@@ -10,8 +10,6 @@ let roboOut = function(toCount) {
     } else if (countStr.includes("3")) { 
       range.splice(i, 1, "Won't you be my neighbor?");
     }
-    return range;
-  console.log(range)
 }
 
 $(document).ready(function() {
@@ -21,8 +19,7 @@ $(document).ready(function() {
       const newRobo = roboOut(toCount)
       if (Number.isNaN(toCount)) {
         alert("Please enter a numeric value.")
-      } else if (newRobo === newRobo) {
-        $("#finalStr").show();
-      }
+      } 
+        // $("#roboResult").show();
   });
 });

@@ -24,18 +24,19 @@ If the user inputs a number 1-3, the program will recognize those numbers and di
 
 If the user inputs a number the program will return an array from 0 to that number.
 * Input: 7
-* Output: [0, 1, 2, 3, 4, 5, 6 , 7]
+* Output: [0, 1, 2, 3, 4, 5, 6, 7]
 
-If the user inputs a number, the program will count to that number and all digits in the count containing 1 will be replace by "boop".
+If the user inputs a number, the program will count to that number and all numbers in the count containing a digit of 1 will be replaced by "Beep!".
 * Input: 13
-* Output: 0, boop, 2, 3, 4, 5, 6, 7, 8, 9, boop, boop, boop, boop
+* Output: 0, "Beep!", 2, 3, 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Beep!", "Beep!"
 
-If the user inputs a number, the program will count to that number and all digits in the count containing 2 will be replace by "boop".
+If the user inputs a number, the program will count to that number and all numbers in the count containing a digit of 2, overriding rules for numbers with a 1, will be replaced by "beep".
 * Input: 13
-* Output: 0, boop, 2, 3, 4, 5, 6, 7, 8, 9, boop, boop, boop, boop
+* Output: 0, "Beep!", "Boop!", 3, 4, 5, 6, 7, 8, 9, "Beep!", "Beep!" "Boop!", "Beep!"
 
-
-
+If the user inputs a number, the program will count to that number and all numbers in the count containing 3, overriding rules for digits of 1 and 2, will be replaced by "Won't you be my neighbor?"
+* Input: 13
+* Output: 0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?"
 
 ## Setup/Installation Requirements
 
