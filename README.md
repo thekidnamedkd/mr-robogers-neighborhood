@@ -1,12 +1,12 @@
-# _{Application Name}_
+# _Mr. Rogboger's Neighborhood_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _Week 3 Independent project for looping and arrays, 06.12.20_
 
-#### By _**{List of contributors}**_
+#### By _**Kevin Davis**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This webpage will take inputs and display different results according to the specs below._
 
 ## Specs
 
@@ -40,28 +40,35 @@ If the user inputs a number, the program will count to that number and all numbe
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Download or clone repository from GitHub_
+* _Boot to browser by executing index.html_
+* _Input any number_
+* _Get Mr. Roboger's result_
+* _Try multiple numbers_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_Can't get numbers to splice into array. It's adding on the end._
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_Contact Kevin Davis: thekidnamedkd@gmail_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_Google Chrome DevTools_
+_VS Code_
+_HTML_
+_JavaScript_
+_CSS_
+_Bootstrap_
+_jQuery_
+_GitHub_
+_Terminal_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*MIT LICENSE*
 
-Copyright (c) 2020 **_{List of contributors or company name}_**
+Copyright (c) 2020 **_Kevin Davis_**
