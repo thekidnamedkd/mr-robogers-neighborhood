@@ -10,7 +10,7 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 
 ## Specs
 
-If the user inputs a numeric value, the program will display "boop" alert.
+<!-- If the user inputs a numeric value, the program will display "boop" alert.
 * Input: 3
 * Output: alert "3"
 
@@ -18,9 +18,17 @@ If the user puts in a non-numeric value, the program will display alert asking f
 * Input: cat
 * Output: alert "Please enter a numeric value."
 
-If the user inputs a number with more than digit, the program will return an alert separating the number.
-* Input: 23
-* Output: You entered 2 and 3.
+If the user inputs a number 1-3, the program will recognize those numbers and display a different alert for each.
+* Input: 3
+* Output: alert "NEIGHBOR" -->
+
+If the user inputs a number the program will return an array from 0 to that number.
+* Input: 7
+* Output: [0, 1, 2, 3, 4, 5, 6 , 7]
+
+If the user inputs a number, program will count to that number and all digits in the count containing 1 will be replace by "boop".
+* Input: 13
+* Output: 0, boop, 2, 3, 4, 5, 6, 7, 8, 9, boop0, boopboop, boop2, boop3
 
 
 ## Setup/Installation Requirements
