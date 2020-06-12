@@ -1,17 +1,20 @@
+// business logic
 let roboOut = function(toCount) {
   let range = [] 
   for (i = 0; i <= toCount; i++)
-    range.push(i)
-    let countStr = toCount.toString();
+    range.push(" " + i )
+    let countStr = i.toString();
     if (countStr.includes("1")) { 
-      range.splice(i, 1, "Beep!");
+      range.splice(i, 1, " Beep!");
     } else if (countStr.includes("2")) { 
-      range.splice(i, 1, "Boop!");
-    } else if (countStr.includes("3")) { 
-      range.splice(i, 1, "Won't you be my neighbor?");
-    }
+      range.splice(i, 1, " Boop!");
+    } else if  (countStr.includes("3")) { 
+      range.splice(i, 1, " Won't you be my neighbor?");
+    } 
+    return range
 }
 
+// user interface logic
 $(document).ready(function() {
   $("form#robogers").submit(function(event) {
     event.preventDefault();
@@ -20,6 +23,7 @@ $(document).ready(function() {
       if (Number.isNaN(toCount)) {
         alert("Please enter a numeric value.")
       } 
-        // $("#roboResult").show();
+        $("#roboResult").show();
+        $("#finalStr").text(newRobo);
   });
 });
