@@ -1,3 +1,7 @@
 $(document).ready(function() {
-event.preventDefault();
-})
+  $("form#robogers").submit(function(event) {
+    event.preventDefault();
+      const numInput = parseInt($("input#numInput").val());
+      console.log(numInput);
+  });
+});
