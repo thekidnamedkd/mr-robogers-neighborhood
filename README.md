@@ -1,4 +1,4 @@
-# _Mr. Rogboger's Neighborhood_
+# _Mr. Roboger's Neighborhood_
 
 #### _Week 3 Independent project for looping and arrays, 06.12.20_
 
