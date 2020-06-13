@@ -67,7 +67,7 @@ _jQuery_
 _GitHub_
 _Terminal_
 
-### License
+## License
 
 *MIT LICENSE*
 
