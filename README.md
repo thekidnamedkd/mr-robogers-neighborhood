@@ -57,15 +57,15 @@ _Contact Kevin Davis: thekidnamedkd@gmail_
 
 ## Technologies Used
 
-*_Google Chrome DevTools_
-*_VS Code_
-*_HTML_
-*_JavaScript_
-*_CSS_
-*_Bootstrap_
-*_jQuery_
-*_GitHub_
-*_Terminal_
+* _Google Chrome DevTools_
+* _VS Code_
+* _HTML_
+* _JavaScript_
+* _CSS_
+* _Bootstrap_
+* _jQuery_
+* _GitHub_
+* _Terminal_
 
 ## License
 
