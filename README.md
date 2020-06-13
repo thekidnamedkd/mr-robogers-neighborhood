@@ -49,7 +49,7 @@ If the user inputs a number, the program will count to that number and all numbe
 
 ## Known Bugs
 
-_Can't get numbers to splice into array. It's adding on the end._
+_Not a lot of time to test, but no known bugs at this time. I would love to more visually engaging._
 
 ## Support and contact details
 
@@ -57,15 +57,15 @@ _Contact Kevin Davis: thekidnamedkd@gmail_
 
 ## Technologies Used
 
-_Google Chrome DevTools_
-_VS Code_
-_HTML_
-_JavaScript_
-_CSS_
-_Bootstrap_
-_jQuery_
-_GitHub_
-_Terminal_
+*_Google Chrome DevTools_
+*_VS Code_
+*_HTML_
+*_JavaScript_
+*_CSS_
+*_Bootstrap_
+*_jQuery_
+*_GitHub_
+*_Terminal_
 
 ## License
 
